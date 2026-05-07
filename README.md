@@ -88,7 +88,11 @@ To run the project:
 ---
 
 ## How to Run
-```bash
-pip install -r requirements.txt
+Install dependencies manually:
+
+pip install torch numpy opencv-python matplotlib tqdm
+
+Then run:
+
 python train.py
 python demo.py
